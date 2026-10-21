@@ -1,0 +1,19 @@
+# Priemyselná revolúcia
+- 18. - 19. storočie
+- vznik v Anglicku
+- znamenala zavádzanie strojov do výroby
+	- umožnilo za kratší čas viac vyrobiť
+- hlavný vynález - parný stroj - James Watt
+- **daľšie vynálezi:**
+	- striedavý prúd Tesla 
+	- jednosmerný prúd - Edison 
+	- evolučná teoria - Darwin
+	- bezdrôtová telegrafia - Murgaš (Marcconi)
+	- padák - Banič
+- **objavy:** 
+	- železo-betón 
+	- benzínový motor
+	- nové druhy liekov
+	- elektrina
+	- film a fotka
+- kupovali sa orignálne turbíny fr

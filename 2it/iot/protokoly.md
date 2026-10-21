@@ -1,0 +1,146 @@
+# Protokoly
+- v iot predstavujú **súbor pravidiel a štandardov** kt. **určujú ako zariadenia medzi sebou komunikujú**
+- je dôležité aby protokoli boli:
+	- efektívne
+	- bezpečné 
+	- prispôsobené obmedzeným zdrojom
+- používajú sa rôzne druhy napr.
+	- bluetooth
+	- wifi - nízkoúrovňové - zabezpečujú fyzické spojenie
+	- MQTT
+	- CoAP - vysokoúrovňové - výmena dát medzi aplikáciami
+- iot protokoly sa dajú zaradiť do troch kategórií od závislosti na vrstve OSI modelu kde pôsobia
+
+# Fyzická a linková vrstva
+- zabezpečujú fyzický prenos dát a základnú komunikáciu
+- **bluetooth/BLE**
+	-  BLE - bluetooth low energy
+		- nízka spotreba energie
+		- občasný prenos malých objemov dát
+	- nositeľné zariadenia - BAN a PAN
+	- proces komunikácie:
+		1. zariadenia oznamujú svoju prítomnosť a schopnosť pripojenia
+		2. zariadenie v hlavnej role (master) počúva oznámenia a iniciuje spojenie vyslaním správy s názvom žiadosť o pripojenie
+		3. master môže spravovať viac simultánnych spojení s viacerými klientskými zariadeniami (slave)
+		4. slave zariadenie môže byť pripojené len k jednému master zariadeniu
+	- BLE používa topológiu hviezdy
+	- akonáhle sú pripojené zariadenia, master používa schému časového rozdelenia viacnásobného prístupu na plánovanie začiatku udalostí spojenia
+- **wifi**
+	- rozšírený štandard pre vysoko rýchlostné bezdrôtové pripojenie v lokálnych sieťach
+	- v iot používané tam kde je k dispozícií trvalé napájanie a požaduje prístup na internet s vyššou priepustnosťou
+	- **výhody:**
+		- vysoká prenosová rýchlosť
+		- dobrý dosah v interiéri
+		- možnosť priameho prístupu na internet
+	- **nevýhody:**
+		- vysoká energetická náročnosť
+		- potreba konštantného napájania
+		- vyššia náročnosť na zabezpečenie
+- **zigbee**
+	- bezdrôtový komn. protokol na krátke vzdialenosti - mesh
+		- mesh topológia - zariadenia si navzájom môžu preposielať dáta - výborné pokrytie aj v zložitých priestoroch
+	- nízkoenergetický
+	- bezdrôtový
+	- určený pre veľký počet zariadení 
+	- najmä v domácich automatizačných systémoch a priemysle
+	- pomocou zigbee je možné vytvoriť sieť snímačov a pokúsiť sa aplikovať rôzne monitorovacie a riadiace aplikácie
+	- **výhody:**
+		- nízka spotreba energie
+		- podpora mesh siete
+		- možnosť pripojiť desiatky až stovky zariadení
+	- **nevýhody:**
+		- nižšia rýchlosť
+		- vyžaduje zigbee hub - koordinátor
+		- menej podporovaný v spotrebiteľských zariadeniach v porovnaní s WiFi alebo Bluetooth
+- **LoRaWAN**
+	- Long Range Wide Area Network
+	- čisto sieťový protokol - fyzická a mac vrstva 
+	- LoRoWAN je protokol pre bezdrôtový prenos na dlhé vzdialenosti s veľmi nízkou spotrebou energie
+	- použitý pri zariadeniach napájaných z batérie kde sa vyžaduje výdrž niekoľko rokov
+	- **výhody:**
+		- veľký dosah - kilometre
+		- extrémne nízka spotreba energie
+	- **nevýhody:**
+		- nízka rýchlosť
+		- obmedzené množstvo prenášaných dát - za určitý čas vie poslať menšie množstvo dát
+- **NFC**
+	- bezdrôtová technológia na veľmi krátku vzdialenosť - do 10 cm
+	- použité v bezkontaktných platbách, identifikáciu a v prístupových systémoch
+	- v iot využité na inicializáciu spojenia (párovanie) alebo jednoduchý prenos údajov
+	- v súčasnosti umožňuje integrovať vernostné, platobné karty do mobilných zariadení
+	- **výhody:**
+		- rýchla výmena dát na krátku vzdialenosť
+		- nízka spotreba
+		- jednoduché použite
+	- **nevýhody:**
+		- krátky dosah
+		- nízka prenosová rýchlosť
+		- len pre špecifické scenáre
+
+# Sieťová a transportná vrstva
+- zodpovedajú za smerovanie dát medzi uzlami a zabezpečenie spoľahlivosti prenosu
+- **IP**
+	- zabezpečuje  logické adresovanie a smerovanie dátových paketov medzi zariadeniami v sieti
+	- určuje kam majú dáta ísť a kadiaľ
+	- v IoT je čoraz dôležitejšie využitie IPv6 - umožňuje pripojenie obrovského množstva zariadení bez potreby zdieľania IP adries
+	- **výhody:**
+		- univerzálnosť
+			- základ všetkých sieťových komunikácií je IP
+		- škálovatelnosť
+			- prakticky neobmedzený počet unikátnych IPv6 adries  
+		- možnosť globálneho prístupu
+			- zariadenia môžu byť priamo dostupné cez internet
+	- **nevýhody:**
+		- IPv4 má obmedzený počet adries
+		- IPv6 je náročnejšie na implementáciu
+			- vyžaduje väčšiu pamäť a výpočtovú silu
+		- nie je optimalizovaný pre zariadenia s nízkou spotrebou energie
+- **6LoWPAN**
+	- IPv6 over Low Power Wireless Personal Area Networks
+	- umožňuje prenos IPv6 cez bezdrôtové siete s nízkou priepustnosťou
+		- napr. zigbee
+	- zabezpečuje kompresiu a fragmentáciu IPv6 paketov aby mohli fungovať s malou pamäťou a nízkou spotrebou
+	- **výhody:**
+		- efektívny prenos dát aj cez pomalé alebo úsporné siete
+		- podpora internetovej kontektivity cez IPv6 aj pre malé zariadenia
+		- ideálny pre senzorové siete a domácu automatizáciu
+	- **nevýhody:**
+		- vyššia technická zložitosť - potrebuje špeciálny stack a konfiguráciu
+		- kompatibilita obmedzená na určité typy rádiových rozhraní
+		- zložité ladenie problémov v mesh architektúre
+
+- **RPL**
+	- Routing Protocol for Low power and lossy networks
+	- je navrhnutý pre nestabilné a úsporné siete ktoré môžu často meniť topológiu alebo strácať pakety
+	- používa topológiu stromu kde každý uzol má svoje miesto podľa kvality spojenia alebo iných metrík
+	- **výhody:**
+		- pomáha zisťovať problémy v sieti
+			- napr. ping, traceroute
+		- v IPv6 je nevyhnutný na správne fungovanie siete
+		- nízka dátová náročnosť
+	- **nevýhody:**
+		- nie je určený na prenos dát
+		- bezpečnostné riziká - môže byť zneužitý na útoky
+			- napr. DDoS, ping flood
+		- mnohé firewally ICMP správy blokujú
+- **UDP/TCP** - poznámky sú o TCP
+	- Transmission Control Protocol
+	- spoľahlivý transportný protokol ktorý zabezpečuje že všetky dáta budú doručené správne a v správnom poradí
+	- používa mechanizmy ako potvrdzovanie (ACK), opakovaný prenos (retransmission) a riadenie toku
+	- **výhody:**
+		- zaručený prenos dát - žiadna strata alebo duplikácia
+		- poradie paketov je zachované 
+			- čo je dôležité pri prenose súborov alebo konfigurácií
+		- používa sa v mnohých známych protokoloch
+			- http, ftp, mqtt
+	- **nevýhody:**
+		- vyššia dátová réžia veľa riadiacich správ - handshake, ACK
+		- vyššia spotreba energie a pamäťe 
+			- nevhodné pre slabé zariadenia
+		- pomalší ako UDP
+			- kvôli robustnosti
+
+## Súvisiace
+- [[komunikacia]]
+- [[spojenia]]
+- [[iot-uvod-architektura]]

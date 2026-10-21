@@ -1,0 +1,22 @@
+# Trh a trhový mechanizmus
+- **trh** je miesto kde sa stretávajú dopyt a ponuka, kde sa uskutočňuje predaj výrobkov a služieb
+- *delíme na čiastkový a agregátny*
+	- **čiastkový** - predáva sa jeden druh tovaru
+	- **agregátny** - predávajú sa rôzne druhy tovaru
+- *delíme podľa predmetu kúpy a predaja*
+	- **trh tovaru a služby** - predáva sa tovar a služby
+	- **trh výrobných faktorov** - predáva sa práca, pôda a kapitál
+	- **finančný trh**
+		- **peňažný** 
+			- krátkodobý - do jedného roka
+		- **kapitálny**
+			- dlhodobý - viac ako rok
+		- **devízový trh**
+			- obchodovanie s menami iných štátov
+			- **valuty** - hotovostné meny iných štátov
+			- **devíze** - bezhotovostné meny iných štátov
+		- **trh drahých kovov** 
+			- 1 **trójský unca** = 31,1 gramov
+		- **poistný trh**
+			- obchod s poistením a zaistením
+			- **zaistenie** je poistenie poisťovní

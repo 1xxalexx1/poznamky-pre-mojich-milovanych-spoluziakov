@@ -1,0 +1,14 @@
+# Dejiny Francúzska
+- prvotné osídlenie územia v Paolite
+	- z počiatku toto územie obývali Kelti
+- neskôr Francúzko bolo okupované Rímskou ríšou vrámci ktorej vznikla Gália
+- rozvoj Francúzka nastal hlavne po zámorkých objavou a následnej kolonizácií najmä Afriky
+	-  **odtiaľ dovážali:**
+		- zlato
+		- vzácne kovy
+		- otrokov
+- **udalosti a osobnosti**
+	- dobitie Bastili - zmena spoločenského systému
+	- Napoleon Bonaparte - dobivatel, generál
+	- Francúzka republika
+	- Jean de Call - prezident, upsoriadanie spoločnosti v 20. storočí

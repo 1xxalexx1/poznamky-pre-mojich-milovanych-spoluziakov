@@ -1,0 +1,33 @@
+# Základné ekonomické pojmy
+- **ekonómia** - veda o tom ako spoločnosť využíva vzácne zdroje na výrobu statkov a ako ich rozdeľuje medzi jednotlivé skupiny obyvateľstva
+  - *delíme na mikroekonómiu a makroekonómiu*
+    - **mikroekonómia** - skúma správanie sa jednotlivých ekonomických subjektov (podniky, domácnosti)
+    - **makroekonómia** - skúma ekonomiku ako celok
+  - *delíme na pozitívnu a normatívnu*
+    - **pozitívna** - konštatuje fakty, vyjasňuje ekonomické javy ale ich nehodnotí
+    - **normatívna** - dáva návody a odporúčania ako riešiť jednotlivé problémy
+- **ekonomika** - mechanizmus ktorý rozdeľuje vzácne zdroje medzi jednotlivé potreby
+  - *delíme na príkazovú, throvú a zmiešanú*
+  - **príkazová** - funguje na základe dlhodobých plánov
+    - je riadená z jedného centra
+    - je to ekonomika prebytkovo nedostatková (niektoré tovary je nadbytok a niektoré chýbajú)
+    - neexistuje súkromný sektor (súkromné vlastníctvo) ani konkurencia takže nie je priestor na rozvoj ekonomiky
+    - existuje na Kube a v Severnej Kóreí
+  - **trhová** - garantuje slobodu podnikania a voľnú súťaž
+    - všetko riadi trh na základe dopitu a ponuky
+    - chráni súkromný sektor
+    - podnikatelia sa snažia udržať svojich zákazníkov preto modernizujú, inovujú a posúvajú ekonomiku hore
+  - **zmiešaná** - spojenie trhovej a príkazovej ekonomiky
+    - štát ovplivňuje dane, clá, minimálny plat
+    - regulácia cien energetiky
+    - školy, nemocnice, sociálne služby, doprava
+  - *delíme na otvorenú a uzatvorenú*
+  - **otvorená** - voľný pohyb (dovoz, vyvážanie) tovaru, služieb a kapitálu
+  - **uzatvorená** - obmedzený pohyb
+  - *delíme na prebytkovú a nedostatkovú*
+  - **prebytková** - dokáže vyrobiť viac ako sa spotrebuje
+    - prevláda ponuka
+  - **nedostatková** - opak proste
+  - **tieňová** - čierny trh
+    - nelegálne veci
+    - legálne veci na ktoré sa neplatí clo (čo je ilegálne) čiže sú lacnejšie

@@ -1,0 +1,21 @@
+- stator je napájaný striedavým napätím
+- rotor nie je napájaný
+	- prúd vzniká len indukciou zo statora 
+		- preto ich voláme aj indukčné motory
+- rotor sa točí vďaka priťahovaniu opačných magnetických pólov ako pri synchrónnom motore
+- ![[Pasted image 20261011110916.png]]
+- rotor nikdy nebude mať rovnaké otáčky ako statorové magnetické pole
+	- vďaka tomu (že sa rotor pohybuje pomalšie statorove pole) vzniká idukovaný prúd
+		- keby sa rotor začal točiť rovnako rýchlo ako statorove pole rotor by začal spomaľovať kvôli zániku indukcie
+- rozdiel medzi rýchlosťou statorového poľa a rýchlosťou rotora sa nazýva **sklz**
+	- výpočet sklzu je: $$s = \frac{n_s - n}{n_s}$$
+		- kde:
+			- s = sklz
+			- n_s = synchrónne otáčky
+			- n = realne otáčky motora
+	- na výpočet synchrónnych otáčok použijeme vzorec: $$n_s = \frac{120 \cdot f}{p}$$
+		- kde:
+			- n_s = synchrónne otáčky
+			- f = frekvencia stratového poľa
+			- p = počet pólov rotora
+- 

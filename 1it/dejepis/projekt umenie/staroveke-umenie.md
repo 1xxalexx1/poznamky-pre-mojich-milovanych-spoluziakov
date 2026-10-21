@@ -1,0 +1,15 @@
+# Grécko
+- Predstavitelia
+	- Maliarstvo - Alexander Antiochijský (sochár)
+	- Literatúra/dráma - Euripides/Sophocles
+	- Hudba - Aglais
+- 
+- často filozofovia - umelci - ??vzdelaní??
+- Motívy polyteizmu a bohov
+- Budovy bývali (aj v Egypte a Ríme) často namaľované - časom a vandalizmom od Kresťanov však stratili svoju farbu 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Athena_Herakles_Staatliche_Antikensammlungen_2301_B.jpg/1024px-Athena_Herakles_Staatliche_Antikensammlungen_2301_B.jpg
+	- Najviac zachovaných malieb na keramike
+- https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/MG-Paris-Aphrodite_of_Milos.jpg/1024px-MG-Paris-Aphrodite_of_Milos.jpg
+	- Alexandros of Antioch - jedna z najznámejších sôch
+- https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Parthenon_%2830276156187%29.jpg/1024px-Parthenon_%2830276156187%29.jpg
+	- charakteristická architektúra - pilier, ozdoby
