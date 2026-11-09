@@ -13,7 +13,7 @@
     - pôvod vo výtvarnom umení
     - cieľom bol vyvolať určitý dojem
     - často využíva aj farby
-      - opisy farieb objektov čo umožňuje si to lepšie predstaviť
+	- opisy farieb objektov čo umožňuje si to lepšie predstaviť
     - chceli vyvolať pocit v čitateľovi
   - **dekadencia**
     - typické sú pocity smútku
@@ -30,8 +30,8 @@
     - básnici sa snažili prebudiť tvorivé sily ukrité v podvedomí
     - texty sú ťažko zrozumiteľné
     - používali genitívnu metaforu
-      - "kohútik detí"
-      - metafora a podstatné meno je v genitíve
+	    - "kohútik detí"
+		- metafora a podstatné meno je v genitíve
   - **dadaizmus**
     - vznikol vo Francúzsku
     - názov odkazuje na nevjazanú detskú reč

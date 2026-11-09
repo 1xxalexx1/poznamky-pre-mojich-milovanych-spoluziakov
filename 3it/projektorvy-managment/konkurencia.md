@@ -1,0 +1,24 @@
+# Konkurencia
+
+- trhový mechanizmus môže efektívne fungovať len v konkurenčnom prostredí
+- konkurencia znamená stretávanie sa subjektov trhu kde chce každý realizovať svoje ekonomické záujmi
+- rozdelujeme na:
+  - konkurencia na strane dopytu
+    - je to konkurencia medzi spotrebiteľmi
+    - každý chce kúpiť čo najlepšie aj na úkor ostatných
+    - nastáva vtedy ak je dopyt väčší ako ponuka
+    - konkurencia medzi spotrebiteľmi zvyšuje cenu
+  - konkurencia na strane ponuky
+    - nastáva vtedy ak je ponuka väčšia ako dopyt
+    - motivuje výrobcov
+    - každý chce mať čo najvyšší zisk a vyradiť konkurentov
+    - používajú na to rôzne metódy a na základe toho rozdelujeme konkurenciu na cenovú a necenovú
+      - cenová spočíva v zdanlivo nezmyselnom znižovaní cien výrobkov ak keď je po nich dopyt
+        - chcú tým prilátať zákazníkov a dúfajú že konkurenti sa nebudú vedieť prispôsobiť novým cenám a skrachujú 
+        - tým by ovládli trh, mohli by si diktovať podmienky a zvišovať ceny
+      - necenová
+        - kvalita
+        - záruka, servis
+        - značka
+        - obal
+        - úver
